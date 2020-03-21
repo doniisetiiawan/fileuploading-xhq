@@ -4,6 +4,7 @@
   "main": "start.js",
   "scripts": {
     "start": "nodemon --watch . start.js",
+    "node": "node start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Doni Setiawan <donisetiawan.050@gmail.com>",
@@ -20,6 +21,19 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "basic-auth-connect": "^1.0.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "csurf": "^1.11.0",
+    "cuid": "^2.1.8",
+    "custom-err": "^0.0.2",
+    "debug": "^4.1.1",
+    "errto": "^0.2.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "morgan": "^1.10.0"
   }
 }
